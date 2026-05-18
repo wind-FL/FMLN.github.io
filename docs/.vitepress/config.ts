@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Felix ML Notes',
   description: 'Mathematics, Machine Learning and AI Notes',
+  base: '/FMLN.github.io/',
 
   markdown:{
     math: true
